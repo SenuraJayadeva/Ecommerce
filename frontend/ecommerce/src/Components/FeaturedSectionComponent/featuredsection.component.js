@@ -19,7 +19,7 @@ export default function FeaturedSection() {
                   <li data-filter=".oranges">Electronics</li>
                   <li data-filter=".fresh-meat">Fashion & Beauty</li>
                   <li data-filter=".vegetables">Accessories</li>
-                  <li data-filter=".fastfood">Fastfood</li>
+                  <li data-filter=".fastfood">Services</li>
                 </ul>
               </div>
             </div>
