@@ -54,7 +54,7 @@ export default function CategoriesSection() {
                   data-setbg="img/categories/cat-5.jpg"
                 >
                   <h5>
-                    <a href="#">drink fruits</a>
+                    <a href="">drink fruits</a>
                   </h5>
                 </div>
               </div>

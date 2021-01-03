@@ -1,5 +1,6 @@
 import React from "react";
-
+import CategoryAccordion from "./accordion.component";
+import "./best-carousel-slide.css";
 export default function Herosection() {
   return (
     <div>
@@ -9,55 +10,13 @@ export default function Herosection() {
           <div class="row">
             <div class="col-lg-3">
               <div class="hero__categories">
-                <div class="hero__categories__all">
-                  <i class="fa fa-bars"></i>
-                  <span>All departments</span>
-                </div>
-                <ul>
-                  <li>
-                    <a href="#">Fresh Meat</a>
-                  </li>
-                  <li>
-                    <a href="#">Vegetables</a>
-                  </li>
-                  <li>
-                    <a href="#">Fruit & Nut Gifts</a>
-                  </li>
-                  <li>
-                    <a href="#">Fresh Berries</a>
-                  </li>
-                  <li>
-                    <a href="#">Ocean Foods</a>
-                  </li>
-                  <li>
-                    <a href="#">Butter & Eggs</a>
-                  </li>
-                  <li>
-                    <a href="#">Fastfood</a>
-                  </li>
-                  <li>
-                    <a href="#">Fresh Onion</a>
-                  </li>
-                  <li>
-                    <a href="#">Papayaya & Crisps</a>
-                  </li>
-                  <li>
-                    <a href="#">Oatmeal</a>
-                  </li>
-                  <li>
-                    <a href="#">Fresh Bananas</a>
-                  </li>
-                </ul>
+                <CategoryAccordion />
               </div>
             </div>
             <div class="col-lg-9">
               <div class="hero__search">
                 <div class="hero__search__form">
                   <form action="#">
-                    <div class="hero__search__categories">
-                      All Categories
-                      <span class="arrow_carrot-down"></span>
-                    </div>
                     <input type="text" placeholder="What do yo u need?" />
                     <button type="submit" class="site-btn">
                       SEARCH
@@ -74,18 +33,107 @@ export default function Herosection() {
                   </div>
                 </div>
               </div>
-              <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
-                <div class="hero__text">
-                  <span>FRUIT FRESH</span>
-                  <h2>
-                    Vegetable <br />
-                    100% Organic
-                  </h2>
-                  <p>Free Pickup and Delivery Available</p>
-                  <a href="#" class="primary-btn">
-                    SHOP NOW
-                  </a>
-                </div>
+              <div>
+                <section id="carousel">
+                  <div
+                    class="carousel slide"
+                    data-ride="carousel"
+                    id="carousel-1"
+                  >
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item">
+                        <div class="jumbotron pulse animated hero-nature carousel-hero">
+                          <h1 class="hero-title">Hero Nature</h1>
+                          <p class="hero-subtitle">
+                            Nullam id dolor id nibh ultricies vehicula ut id
+                            elit. Cras justo odio, dapibus ac facilisis in,
+                            egestas eget quam.
+                          </p>
+                          <p>
+                            <a
+                              class="btn btn-primary hero-button plat"
+                              role="button"
+                              href="#"
+                            >
+                              Learn more
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="jumbotron pulse animated hero-photography carousel-hero">
+                          <h1 class="hero-title">Hero Photography</h1>
+                          <p class="hero-subtitle">
+                            Nullam id dolor id nibh ultricies vehicula ut id
+                            elit. Cras justo odio, dapibus ac facilisis in,
+                            egestas eget quam.
+                          </p>
+                          <p>
+                            <a
+                              class="btn btn-primary hero-button plat"
+                              role="button"
+                              href="#"
+                            >
+                              Learn more
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item active">
+                        <div
+                          class="jumbotron hero-technology carousel-hero"
+                          data-aos="fade-up"
+                          data-aos-delay="100"
+                        >
+                          <h1 class="hero-title">Hero Technology</h1>
+                          <p class="hero-subtitle">
+                            Nullam id dolor id nibh ultricies vehicula ut id
+                            elit. Cras justo odio, dapibus ac facilisis in,
+                            egestas eget quam.
+                          </p>
+                          <p>
+                            <a
+                              class="btn btn-primary hero-button plat"
+                              role="button"
+                              href="#"
+                            >
+                              Learn more
+                            </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <a
+                        class="carousel-control-prev"
+                        href="#carousel-1"
+                        role="button"
+                        data-slide="prev"
+                      >
+                        <i class="fa fa-chevron-left"></i>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a
+                        class="carousel-control-next"
+                        href="#carousel-1"
+                        role="button"
+                        data-slide="next"
+                      >
+                        <i class="fa fa-chevron-right"></i>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-1" data-slide-to="0"></li>
+                      <li data-target="#carousel-1" data-slide-to="1"></li>
+                      <li
+                        data-target="#carousel-1"
+                        data-slide-to="2"
+                        class="active"
+                      ></li>
+                    </ol>
+                  </div>
+                </section>
               </div>
             </div>
           </div>

@@ -1,0 +1,74 @@
+div.jumbotron.carousel-hero {
+  color: #fff !important;
+  text-align: center !important;
+  background-size: cover !important;
+  background-position: center !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  margin-bottom: 0 !important;
+}
+
+div.jumbotron.hero-nature {
+  background-image: url("../img/architect-at-the-construction.jpg") !important;
+}
+
+div.jumbotron.hero-photography {
+  background-image: url("../img/architects-and-worker.jpg") !important;
+}
+
+div.jumbotron.hero-technology {
+  background-image: url("../img/young-college-students.jpg") !important;
+}
+
+h1.hero-title,
+h2.hero-title,
+h3.hero-title {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.4) !important;
+  color: #fff !important;
+}
+
+p.hero-subtitle {
+  max-width: 600px !important;
+  margin: 25px auto !important;
+  padding: 10px 15px !important;
+  color: #fff !important;
+}
+
+.plat {
+  border-radius: 0px !important;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0 #048f83 !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #016090 !important;
+  border-color: #016090 !important;
+}
+
+.btn.btn-primary {
+  background-color: #048f83 !important ;
+  border-color: #048f83 !important ;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5) !important;
+}
+
+* {
+  /*box-sizing: inherit !important;*/
+}
+
+*:before,
+*:after {
+  /*box-sizing: inherit !important;*/
+}
+
+span {
+  font-style: inherit !important;
+  font-weight: inherit !important;
+}
