@@ -29,8 +29,10 @@ export default function FeaturedSection() {
               <div class="featured__item">
                 <div
                   class="featured__item__pic set-bg"
-                  data-setbg="img/featured/feature-1.jpg"
+                  data-setbg="https://freshpointlocal.co.uk/wp-content/uploads/2018/12/Potatoes-2.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
+
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -63,6 +65,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-2.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -95,6 +98,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-3.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -127,6 +131,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-4.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -159,6 +164,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-5.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -191,6 +197,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-6.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -223,6 +230,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-7.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
@@ -255,6 +263,7 @@ export default function FeaturedSection() {
                   class="featured__item__pic set-bg"
                   data-setbg="img/featured/feature-8.jpg"
                 >
+                  <img src="https://www.thefullstop.lk/media/catalog/product/cache/1/image/1200x1200/e893c830666e142def6ba5603e9efb35/_/j/_j6a0161_edited.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
                       <a href="#">
