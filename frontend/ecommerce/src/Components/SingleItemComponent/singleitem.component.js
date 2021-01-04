@@ -13,6 +13,8 @@ import {
   Col,
 } from "reactstrap";
 
+import "./singleitem.css";
+
 import classnames from "classnames";
 
 export default function SingleitemComponent() {
@@ -52,8 +54,8 @@ export default function SingleitemComponent() {
                   tortor risus.
                 </p>
 
-                <div className="row">
-                  <div className="col-md-4">
+                <div className="row buyoptionsrow">
+                  <div className="col-md-4  buyoptionscol">
                     <a
                       href="https://wa.me/94776621324?text=I%20am%20interested%20in%20your%20Phone%20for%20sale"
                       class="btn btn-primary"
@@ -63,7 +65,7 @@ export default function SingleitemComponent() {
                     </a>
                   </div>
 
-                  <div className="col-md-4">
+                  <div className="col-md-4 buyoptionscol">
                     {" "}
                     <a
                       class="btn btn-primary"
@@ -73,7 +75,7 @@ export default function SingleitemComponent() {
                     </a>
                   </div>
 
-                  <div className="col-md-4">
+                  <div className="col-md-4 buyoptionscol">
                     {" "}
                     <a
                       class="btn btn-primary"
