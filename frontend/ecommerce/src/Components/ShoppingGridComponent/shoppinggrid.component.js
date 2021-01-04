@@ -1,6 +1,11 @@
 import React, { useState } from "react";
-import * as mdb from "mdb-ui-kit"; // lib
-import { Input } from "mdb-ui-kit"; // module
+
+import {
+  Dropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+} from "reactstrap";
 
 import ShoopingcarouselComponent from "./shoopingcarousel.component";
 import ShoppingListComponent from "./shoppinglist.component";
@@ -8,6 +13,9 @@ import CategoryaccordionComponent from "./categoryaccordion.component";
 
 export default function ShoppinggridComponent() {
   const [price, setPrice] = useState(0);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggle = () => setDropdownOpen((prevState) => !prevState);
   return (
     <div className="container">
       <div>
