@@ -6,6 +6,8 @@ import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
+import "./accordion.css";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
@@ -21,7 +23,7 @@ export default function CategoryAccordion() {
 
   return (
     <div className={classes.root}>
-      <Accordion>
+      <Accordion className="AccordionDivision">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -30,14 +32,23 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Electronics</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          {" "}
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className="AccordionDivision">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -46,13 +57,23 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Fashion & Beauty</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className="AccordionDivision">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -61,13 +82,23 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Accessories</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
         </AccordionDetails>
       </Accordion>
-      <Accordion>
+      <Accordion className="AccordionDivision">
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -76,10 +107,20 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
         </AccordionDetails>
       </Accordion>
     </div>

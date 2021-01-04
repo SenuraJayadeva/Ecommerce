@@ -98,7 +98,7 @@ a:hover,
 a:focus {
   text-decoration: none !important;
   outline: none !important;
-  color: #ffffff !important;
+  /* color: #ffffff !important; */
 }
 
 ul,

@@ -9,15 +9,15 @@ div.jumbotron.carousel-hero {
 }
 
 div.jumbotron.hero-nature {
-  background-image: url("./img/architect-at-the-construction.jpg") !important;
+  background-image: url("./img/background1.jpg") !important;
 }
 
 div.jumbotron.hero-photography {
-  background-image: url("./img/architects-and-worker.jpg") !important;
+  background-image: url("./img/background2.jpg") !important;
 }
 
 div.jumbotron.hero-technology {
-  background-image: url("./img/young-college-students.jpg") !important;
+  background-image: url("./img/background3.jpg") !important;
 }
 
 h1.hero-title,

@@ -1,0 +1,8 @@
+ul.listCategoriesHeroSection {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.AccordionDivision {
+  background-color: rgb(28, 40, 48);
+}

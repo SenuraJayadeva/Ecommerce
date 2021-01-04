@@ -9,7 +9,7 @@ export default function Herosection() {
         <div class="container">
           <div class="row">
             <div class="col-lg-3">
-              <div class="hero__categories">
+              <div>
                 <CategoryAccordion />
               </div>
             </div>
