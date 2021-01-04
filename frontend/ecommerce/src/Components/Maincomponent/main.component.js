@@ -6,6 +6,7 @@ import FooterComponent from "../FooterSectionComponent/footer.component";
 
 import HomePageComponent from "../HomePageComponent/HomePage.component";
 import SingleitemComponent from "../SingleItemComponent/singleitem.component";
+import ShoppinggridComponent from "../ShoppingGridComponent/shoppinggrid.component";
 
 export default function MainComponent() {
   return (
@@ -20,6 +21,9 @@ export default function MainComponent() {
         </div>
         <div>
           <Route path="/item" exact component={SingleitemComponent} />
+        </div>
+        <div>
+          <Route path="/shopping" exact component={ShoppinggridComponent} />
         </div>
       </Router>
 

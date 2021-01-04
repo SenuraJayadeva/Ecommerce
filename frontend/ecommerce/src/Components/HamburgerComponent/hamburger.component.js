@@ -6,11 +6,15 @@ export default function HamburgerComponent() {
   return (
     <div className="container">
       <nav
-        class="navbar navbar-expand-lg  navbar-light"
+        class="navbar navbar-expand-lg navbar-light"
         id="hamburgerNav"
         style={{ margin: "10px 0px 20px 0px", borderRadius: "10px" }}
       >
-        <a class="navbar-brand" href="#" style={{ color: "wheat" }}>
+        <a
+          class="navbar-brand"
+          href="#"
+          style={{ color: "wheat", fontWeight: "bolder" }}
+        >
           UniCART
         </a>
         <button
@@ -24,7 +28,7 @@ export default function HamburgerComponent() {
         >
           <span
             class="navbar-toggler-icon"
-            // style={{ backgroundColor: "black" }}
+            style={{ backgroundColor: "wheat", borderRadius: "50%" }}
           ></span>
         </button>
 
@@ -36,7 +40,7 @@ export default function HamburgerComponent() {
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" style={{ color: "white" }}>
+              <a class="nav-link" href="/shopping" style={{ color: "white" }}>
                 Shopping
               </a>
             </li>

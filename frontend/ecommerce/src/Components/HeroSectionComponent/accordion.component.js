@@ -35,7 +35,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Electronics</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
@@ -63,7 +63,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Fashion & Beauty</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
@@ -91,7 +91,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Accessories</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
@@ -119,7 +119,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
@@ -147,7 +147,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
@@ -175,7 +175,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
@@ -203,7 +203,7 @@ export default function CategoryAccordion() {
           <Typography className={classes.heading}>Services</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <ul class="listCategoriesHeroSection">
+          <ul class="listCategoriesHeroSection categotyUL">
             <li>
               <a href="#">Mobile</a>
             </li>
