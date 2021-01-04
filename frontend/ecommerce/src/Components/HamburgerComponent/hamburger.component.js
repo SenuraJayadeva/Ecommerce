@@ -4,14 +4,14 @@ import "./hamburgermenu.css";
 
 export default function HamburgerComponent() {
   return (
-    <div>
+    <div className="container">
       <nav
         class="navbar navbar-expand-lg"
         id="hamburgerNav"
-        style={{ margin: "0px 0px 20px 0px" }}
+        style={{ margin: "10px 0px 20px 0px", borderRadius: "10px" }}
       >
-        <a class="navbar-brand" href="#">
-          Navbar
+        <a class="navbar-brand" href="#" style={{ color: "wheat" }}>
+          UniCART
         </a>
         <button
           class="navbar-toggler"
@@ -28,22 +28,21 @@ export default function HamburgerComponent() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#" style={{ color: "white" }}>
                 Home
               </a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style={{ color: "white" }}>
+                Shopping
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style={{ color: "white" }}>
+                Cart
+              </a>
+            </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </nav>
     </div>
