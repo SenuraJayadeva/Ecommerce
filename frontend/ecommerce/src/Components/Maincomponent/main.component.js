@@ -5,6 +5,7 @@ import Headersection from "../HeaderSectionComponent/headersection.component";
 import Herosection from "../HeroSectionComponent/herosection.component";
 import CategoriesSection from "../CategoriesSectionComponent/categoriessection.component";
 import FeaturedSection from "../FeaturedSectionComponent/featuredsection.component";
+import FooterComponent from "../FooterSectionComponent/footer.component";
 
 export default function MainComponent() {
   return (
@@ -22,6 +23,9 @@ export default function MainComponent() {
       </div>
       <div>
         <FeaturedSection />
+      </div>
+      <div>
+        <FooterComponent />
       </div>
     </div>
   );

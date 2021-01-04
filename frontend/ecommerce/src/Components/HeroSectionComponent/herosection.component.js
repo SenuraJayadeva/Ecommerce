@@ -1,6 +1,9 @@
 import React from "react";
 import CategoryAccordion from "./accordion.component";
 import "./best-carousel-slide.css";
+
+import LOGO from "./img/logo.png";
+
 export default function Herosection() {
   return (
     <div>
@@ -9,6 +12,10 @@ export default function Herosection() {
         <div class="container">
           <div class="row">
             <div class="col-lg-3">
+              <div>
+                <img src={LOGO} />
+              </div>
+              <br />
               <div>
                 <CategoryAccordion />
               </div>

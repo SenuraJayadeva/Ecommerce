@@ -23,7 +23,10 @@ export default function CategoryAccordion() {
 
   return (
     <div className={classes.root}>
-      <Accordion className="AccordionDivision">
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -48,7 +51,10 @@ export default function CategoryAccordion() {
           </ul>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="AccordionDivision">
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -73,7 +79,10 @@ export default function CategoryAccordion() {
           </ul>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="AccordionDivision">
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -98,7 +107,94 @@ export default function CategoryAccordion() {
           </ul>
         </AccordionDetails>
       </Accordion>
-      <Accordion className="AccordionDivision">
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>Services</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>Services</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography className={classes.heading}>Services</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <ul class="listCategoriesHeroSection">
+            <li>
+              <a href="#">Mobile</a>
+            </li>
+            <li>
+              <a href="#">Desktop</a>
+            </li>
+            <li>
+              <a href="#">Laptop</a>
+            </li>
+            <li>
+              <a href="#">Power Bank</a>
+            </li>
+          </ul>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion
+        className="AccordionDivision"
+        style={{ backgroundColor: "#f0f0f0" }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
