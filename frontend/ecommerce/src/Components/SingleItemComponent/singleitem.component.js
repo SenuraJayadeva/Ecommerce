@@ -12,6 +12,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
+
 import classnames from "classnames";
 
 export default function SingleitemComponent() {
