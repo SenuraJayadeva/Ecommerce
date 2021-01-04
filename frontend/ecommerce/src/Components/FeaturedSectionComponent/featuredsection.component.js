@@ -45,7 +45,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -78,7 +78,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -111,7 +111,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -144,7 +144,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -177,7 +177,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -210,7 +210,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -243,7 +243,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
@@ -276,7 +276,7 @@ export default function FeaturedSection() {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/item">
                         <i class="fa fa-shopping-cart"></i>
                       </a>
                     </li>
