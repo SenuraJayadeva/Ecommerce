@@ -6,7 +6,7 @@ export default function HamburgerComponent() {
   return (
     <div className="container">
       <nav
-        class="navbar navbar-expand-lg"
+        class="navbar navbar-expand-lg  navbar-light"
         id="hamburgerNav"
         style={{ margin: "10px 0px 20px 0px", borderRadius: "10px" }}
       >
@@ -22,7 +22,10 @@ export default function HamburgerComponent() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span
+            class="navbar-toggler-icon"
+            // style={{ backgroundColor: "black" }}
+          ></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,6 +43,18 @@ export default function HamburgerComponent() {
             <li class="nav-item active">
               <a class="nav-link" href="#" style={{ color: "white" }}>
                 Cart
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ">
+            <li class="nav-item my-2 my-lg-0">
+              <a class="nav-link" href="#" style={{ color: "white" }}>
+                <i class="fas fa-sign-in-alt"></i> &nbsp; Login
+              </a>
+            </li>
+            <li class="nav-item my-2 my-lg-0">
+              <a class="nav-link" href="#" style={{ color: "white" }}>
+                <i class="fas fa-user-plus"></i> &nbsp; Register
               </a>
             </li>
           </ul>

@@ -129,7 +129,7 @@ ol {
   right: 0 !important;
   height: 4px !important;
   width: 80px !important;
-  background: #7fad39 !important;
+  background: #06468f !important;
   content: "" !important;
   margin: 0 auto !important;
 }
@@ -811,7 +811,7 @@ ol {
 -----------------------*/
 
 .featured {
-  padding-top: 80px !important;
+  padding-top: 5px !important;
   padding-bottom: 40px !important;
 }
 
@@ -840,7 +840,7 @@ ol {
   bottom: -2px !important;
   width: 100% !important;
   height: 2px !important;
-  background: #7fad39 !important;
+  background: #06468f !important;
   content: "" !important;
   opacity: 0 !important;
 }
@@ -888,8 +888,8 @@ ol {
 }
 
 .featured__item__pic__hover li:hover a {
-  background: #7fad39 !important;
-  border-color: #7fad39 !important;
+  background: #006ab1 !important;
+  border-color: #006ab1 !important;
 }
 
 .featured__item__pic__hover li:hover a i {
