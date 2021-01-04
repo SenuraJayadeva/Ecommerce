@@ -52,7 +52,11 @@ export default function SingleitemComponent() {
                   tortor risus.
                 </p>
 
-                <a href="#" class="btn btn-info">
+                <a
+                  href="https://wa.me/94776621324?text=I%20am%20interested%20in%20your%20car%20for%20sale"
+                  class="btn btn-info"
+                  target="_blank"
+                >
                   BUY
                 </a>
 
