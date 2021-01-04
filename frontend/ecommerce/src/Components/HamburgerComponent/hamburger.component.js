@@ -46,13 +46,13 @@ export default function HamburgerComponent() {
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="#" style={{ color: "white" }}>
-                Cart
+                Post Your Ad
               </a>
             </li>
           </ul>
           <ul class="navbar-nav ">
             <li class="nav-item my-2 my-lg-0">
-              <a class="nav-link" href="#" style={{ color: "white" }}>
+              <a class="nav-link" href="/login" style={{ color: "white" }}>
                 <i class="fas fa-sign-in-alt"></i> &nbsp; Login
               </a>
             </li>
