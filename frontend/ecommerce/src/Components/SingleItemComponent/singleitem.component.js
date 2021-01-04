@@ -52,13 +52,37 @@ export default function SingleitemComponent() {
                   tortor risus.
                 </p>
 
-                <a
-                  href="https://wa.me/94776621324?text=I%20am%20interested%20in%20your%20car%20for%20sale"
-                  class="btn btn-info"
-                  target="_blank"
-                >
-                  BUY
-                </a>
+                <div className="row">
+                  <div className="col-md-4">
+                    <a
+                      href="https://wa.me/94776621324?text=I%20am%20interested%20in%20your%20Phone%20for%20sale"
+                      class="btn btn-primary"
+                      target="_blank"
+                    >
+                      BUY VIA &nbsp;<i class="fab fa-whatsapp"></i>
+                    </a>
+                  </div>
+
+                  <div className="col-md-4">
+                    {" "}
+                    <a
+                      class="btn btn-primary"
+                      href="sms:+94776621324&body=I%20am%20interested%20in%20your%20Phone%20for%20sale"
+                    >
+                      BUY VIA &nbsp;<i class="fas fa-phone"></i>
+                    </a>
+                  </div>
+
+                  <div className="col-md-4">
+                    {" "}
+                    <a
+                      class="btn btn-primary"
+                      href="sms:+94776621324&body=I%20am%20interested%20in%20your%20Phone%20for%20sale"
+                    >
+                      BUY VIA &nbsp;<i class="fas fa-envelope"></i>
+                    </a>
+                  </div>
+                </div>
 
                 <ul>
                   <li>
