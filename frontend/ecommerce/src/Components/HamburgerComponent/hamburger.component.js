@@ -1,6 +1,11 @@
 import React, { useEffect } from "react";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
+import LoginComponent from "../LoginComponent/login.component";
+import loginPopup from "../popups/login.popup";
 
 import "./hamburgermenu.css";
+
 
 export default function HamburgerComponent() {
   return (
@@ -52,8 +57,14 @@ export default function HamburgerComponent() {
           </ul>
           <ul class="navbar-nav ">
             <li class="nav-item my-2 my-lg-0">
-              <a class="nav-link" href="/login" style={{ color: "white" }}>
-                <i class="fas fa-sign-in-alt"></i> &nbsp; Login
+              <a class="nav-link" style={{ color: "white" }}>
+                <i class="fas fa-sign-in-alt"></i> &nbsp;{" "}
+                <Popup
+                  modal
+                  trigger={<button class="btn btn-primary ">Login</button>}
+                >
+                  <LoginComponent />
+                </Popup>
               </a>
             </li>
             <li class="nav-item my-2 my-lg-0">
