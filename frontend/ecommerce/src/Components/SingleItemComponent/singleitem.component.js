@@ -5,10 +5,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Card,
-  Button,
-  CardTitle,
-  CardText,
   Row,
   Col,
 } from "reactstrap";
@@ -60,6 +56,7 @@ export default function SingleitemComponent() {
                       href="https://wa.me/94776621324?text=I%20am%20interested%20in%20your%20Phone%20for%20sale"
                       class="btn btn-primary"
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       BUY VIA &nbsp;<i class="fab fa-whatsapp"></i>
                     </a>
@@ -97,16 +94,16 @@ export default function SingleitemComponent() {
                   <li>
                     <b>Share on</b>
                     <div class="share">
-                      <a href="#">
+                      <a href="www.facebook.com">
                         <i class="fa fa-facebook"></i>
                       </a>
-                      <a href="#">
+                      <a href="www.twitter.com">
                         <i class="fa fa-twitter"></i>
                       </a>
-                      <a href="#">
+                      <a href="www.instagram.com">
                         <i class="fa fa-instagram"></i>
                       </a>
-                      <a href="#">
+                      <a href="www.pinterest.com">
                         <i class="fa fa-pinterest"></i>
                       </a>
                     </div>
