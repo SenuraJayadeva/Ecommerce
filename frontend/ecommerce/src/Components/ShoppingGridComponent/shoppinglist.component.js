@@ -32,16 +32,19 @@ export default function ShoppingListComponent() {
                   class="featured__item__pic set-bg"
                   data-setbg="https://freshpointlocal.co.uk/wp-content/uploads/2018/12/Potatoes-2.jpg"
                 >
-                  <img src="https://static.digit.in/default/thumb_132845_default_td_480x480.jpeg?tr=w-1200" />
+                  <img
+                    src="https://static.digit.in/default/thumb_132845_default_td_480x480.jpeg?tr=w-1200"
+                    alt="shoppinglistimage1"
+                  />
 
                   <ul class="featured__item__pic__hover">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-heart"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-retweet"></i>
                       </a>
                     </li>
@@ -54,7 +57,7 @@ export default function ShoppingListComponent() {
                 </div>
                 <div class="featured__item__text">
                   <h6>
-                    <a href="#">Crab Pool Security</a>
+                    <a href="/">Crab Pool Security</a>
                   </h6>
                   <h5>$30.00</h5>
                 </div>
@@ -69,12 +72,12 @@ export default function ShoppingListComponent() {
                   <img src="https://fos.com.my/wp-content/uploads/2020/07/nnn1210100003mrn-scaled.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-heart"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-retweet"></i>
                       </a>
                     </li>
@@ -102,12 +105,12 @@ export default function ShoppingListComponent() {
                   <img src="https://ae01.alicdn.com/kf/H76a93bb7c104460082bb96bd106345b4r/For-Samsung-Galaxy-M31-Case-Slim-Soft-Transparent-High-Clear-TPU-Phone-Cases-For-Galaxy-M31.jpg" />
                   <ul class="featured__item__pic__hover">
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-heart"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="/">
                         <i class="fa fa-retweet"></i>
                       </a>
                     </li>

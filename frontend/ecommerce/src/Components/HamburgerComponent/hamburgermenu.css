@@ -1,8 +1,15 @@
 #hamburgerNav {
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 30%,
     rgba(0, 83, 255, 1) 100%
-  ) !important;
+  ) !important; */
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(1, 99, 133, 1) 44%,
+    rgba(0, 145, 219, 1) 100%
+  );
 }

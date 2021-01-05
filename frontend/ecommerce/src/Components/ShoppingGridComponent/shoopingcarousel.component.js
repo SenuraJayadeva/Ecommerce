@@ -28,36 +28,32 @@ export default function ShoopingcarouselComponent() {
             <img
               src="https://blauberg.com/wp-content/uploads/2020/11/ecommerce.png"
               class="d-block w-100"
-              alt="..."
+              alt="carousel1"
             />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </div>
           </div>
           <div class="carousel-item">
             <img
               src="https://blauberg.com/wp-content/uploads/2020/11/ecommerce.png"
               class="d-block w-100"
-              alt="..."
+              alt="carousel2"
             />
-            <div class="carousel-caption d-none d-md-block">
+            {/* <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+            </div> */}
           </div>
           <div class="carousel-item">
             <img
               src="https://blauberg.com/wp-content/uploads/2020/11/ecommerce.png"
               class="d-block w-100"
-              alt="..."
+              alt="carousel3"
             />
-            <div class="carousel-caption d-none d-md-block">
+            {/* <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <a

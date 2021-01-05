@@ -3,14 +3,22 @@ import "./usercomponent.css";
 
 export default function AdvertisementformComponent() {
   return (
-    <div className="usercomponents">
-      <div className="card">
+    <div className="usercomponents ">
+      <div className="card adform">
         <div className="card-body">
           <h3>Fill in the details</h3>
           <hr />
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Advetisement Title</label>
+              <label>Item Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Advetisement Title"
+              />
+            </div>
+            <div class="form-group">
+              <label>Condition</label>
               <input
                 type="text"
                 class="form-control"
@@ -18,44 +26,64 @@ export default function AdvertisementformComponent() {
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Condition</label>
+              <label>Price</label>
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter email"
+                placeholder="Enter Price"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Price</label>
+              <label>University</label>
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter email"
+                placeholder="Enter University"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">University</label>
+              <label>District</label>
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter email"
+                placeholder="Enter District"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Location</label>
+              <label>Town</label>
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter email"
+                placeholder="Enter Town"
               />
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Description</label>
+              <label>Description</label>
+              <textarea
+                class="form-control"
+                placeholder="Enter Description"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label>Whatsapp</label>
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter email"
+                placeholder="Enter Town"
               />
+            </div>
+
+            <div class="form-group">
+              <label>Email</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Town"
+              />
+            </div>
+            <div class="form-group">
+              <label>Upload an Image</label>
+              <input type="file" class="form-control" />
             </div>
 
             <button type="submit" class="btn btn-primary">

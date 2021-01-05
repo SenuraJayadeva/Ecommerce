@@ -7,15 +7,15 @@ export default function UserLeftComponent() {
       <div className="row usercomponents">
         <div className="col-md-12 text-center">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/senurajayadeva-394f1.appspot.com/o/senurajayadeva.jpg?alt=media&token=d7a5aeb9-596b-4879-8f29-edfd602775ff"
-            style={{ borderRadius: "50%", width: "200px", height: "200px" }}
+            src="https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=800&q=70"
+            style={{ borderRadius: "50%", width: "150px", height: "150px" }}
           />
         </div>
 
         <div className="col-md-12 text-center" style={{ marginTop: "10px" }}>
-          <h5>Senura Jayadeva</h5>
-          <h6>senurajayadeva@gmailc.com</h6>
-          <h6>University Of Sri Jayawardenapura</h6>
+          <h5 className="userDetailsText">Senura Jayadeva</h5>
+          <h6 className="userDetailsText">senurajayadeva@gmailc.com</h6>
+          <h6 className="userDetailsText">University Of Sri Jayawardenapura</h6>
         </div>
       </div>
     </div>

@@ -5,16 +5,13 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Card,
-  Button,
-  CardTitle,
-  CardText,
   Row,
   Col,
 } from "reactstrap";
 import classnames from "classnames";
 
 import AdvertisementformComponent from "./advertisementform.component";
+import UseradvertisementsComponent from "./useradvertisements.component";
 
 export default function UserRightComponent() {
   const [activeTab, setActiveTab] = useState("1");
@@ -25,7 +22,7 @@ export default function UserRightComponent() {
 
   return (
     <div className="usercomponents">
-      <Nav tabs>
+      <Nav tabs style={{ fontWeight: "bold", color: "#016385" }}>
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "1" })}
@@ -56,28 +53,7 @@ export default function UserRightComponent() {
           </Row>
         </TabPane>
         <TabPane tabId="2">
-          <Row className="usercomponents">
-            <Col sm="6">
-              <Card body>
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
-            </Col>
-            <Col sm="6">
-              <Card body>
-                <CardTitle>Special Title Treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
-                <Button>Go somewhere</Button>
-              </Card>
-            </Col>
-          </Row>
+          <UseradvertisementsComponent />
         </TabPane>
       </TabContent>
     </div>

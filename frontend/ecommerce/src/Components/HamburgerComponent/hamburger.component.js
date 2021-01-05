@@ -45,7 +45,7 @@ export default function HamburgerComponent() {
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" style={{ color: "white" }}>
+              <a class="nav-link" href="/user" style={{ color: "white" }}>
                 Post Your Ad
               </a>
             </li>
