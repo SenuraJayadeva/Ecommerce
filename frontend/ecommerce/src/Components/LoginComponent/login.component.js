@@ -9,7 +9,7 @@ export default function LoginComponent() {
           <div className="col-md-6 text-center loginComponentColOne">
             <h1 className="textLoginColOne">UniCART</h1>
             <h3 className="textLoginColOne">LOGIN</h3>
-            <hr />
+            <br />
             <p className="textLoginColOne">Start posting your own ads</p>
             <p className="textLoginColOne">
               View and manage your ads at your convenience

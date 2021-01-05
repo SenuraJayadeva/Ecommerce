@@ -1,4 +1,4 @@
-.LoginRow {
+.RegisterRow {
   background-image: url("./img/loginbackground.png");
   background-size: cover;
   border-radius: 20px;
@@ -8,17 +8,18 @@
   margin-bottom: 3%;
 }
 
-.loginComponentColOne {
-  padding: 5% 5%;
+.RegisterComponentColOne {
+  padding: 10% 5%;
   border-radius: 20px;
 }
 
-.loginComponentColOne .textLoginColOne {
+.RegisterComponentColOne .textRegisterColOne {
   color: #f8ba00;
+  font-size: xx-large;
   font-weight: bolder;
 }
 
-.loginComponentColTwo {
+.RegisterComponentColTwo {
   padding: 5% 8%;
   border-radius: 20px;
 }

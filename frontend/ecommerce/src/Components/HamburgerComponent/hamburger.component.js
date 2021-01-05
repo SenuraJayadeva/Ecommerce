@@ -57,7 +57,7 @@ export default function HamburgerComponent() {
               </a>
             </li>
             <li class="nav-item my-2 my-lg-0">
-              <a class="nav-link" href="#" style={{ color: "white" }}>
+              <a class="nav-link" href="/signup" style={{ color: "white" }}>
                 <i class="fas fa-user-plus"></i> &nbsp; Register
               </a>
             </li>
