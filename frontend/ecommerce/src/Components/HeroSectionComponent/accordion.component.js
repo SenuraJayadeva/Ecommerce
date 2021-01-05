@@ -1,224 +1,245 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Accordion from "@material-ui/core/Accordion";
-import AccordionSummary from "@material-ui/core/AccordionSummary";
-import AccordionDetails from "@material-ui/core/AccordionDetails";
-import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { Link } from "react-router-dom";
 
-import "./accordion.css";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: "100%",
-  },
-  heading: {
-    fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular,
-  },
-}));
+import "./categoryaccordion.css";
 
 export default function CategoryAccordion() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
+    <div>
+      <div
+        class="accordion"
+        id="accordionExample"
+        style={{ backgroundColor: "#EAEAEA" }}
       >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={classes.heading}>Electronics</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Fashion & Beauty</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Accessories</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Services</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Services</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Services</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion
-        className="AccordionDivision"
-        style={{ backgroundColor: "#f0f0f0" }}
-      >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography className={classes.heading}>Services</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <ul class="listCategoriesHeroSection categotyUL">
-            <li>
-              <a href="#">Mobile</a>
-            </li>
-            <li>
-              <a href="#">Desktop</a>
-            </li>
-            <li>
-              <a href="#">Laptop</a>
-            </li>
-            <li>
-              <a href="#">Power Bank</a>
-            </li>
-          </ul>
-        </AccordionDetails>
-      </Accordion>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Eletronics
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul className="categotyUL">
+                <li>
+                  <Link>Mobile</Link>
+                </li>
+                <li>
+                  <Link>Laptop</Link>
+                </li>
+                <li>
+                  <Link>Power Banks</Link>
+                </li>
+                <li>
+                  <Link>SD Card</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Fashion & Beauty
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              {" "}
+              <ul className="categotyUL">
+                <li>
+                  <Link>Mobile</Link>
+                </li>
+                <li>
+                  <Link>Laptop</Link>
+                </li>
+                <li>
+                  <Link>Power Banks</Link>
+                </li>
+                <li>
+                  <Link>SD Card</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Accessories
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              {" "}
+              <ul className="categotyUL">
+                <li>
+                  <Link>Mobile</Link>
+                </li>
+                <li>
+                  <Link>Laptop</Link>
+                </li>
+                <li>
+                  <Link>Power Banks</Link>
+                </li>
+                <li>
+                  <Link>SD Card</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Services
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              {" "}
+              <ul className="categotyUL">
+                <li>
+                  <Link>Mobile</Link>
+                </li>
+                <li>
+                  <Link>Laptop</Link>
+                </li>
+                <li>
+                  <Link>Power Banks</Link>
+                </li>
+                <li>
+                  <Link>SD Card</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              University
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              {" "}
+              <ul className="categotyUL">
+                <li>
+                  <Link>Mobile</Link>
+                </li>
+                <li>
+                  <Link>Laptop</Link>
+                </li>
+                <li>
+                  <Link>Power Banks</Link>
+                </li>
+                <li>
+                  <Link>SD Card</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              University
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              {" "}
+              <ul className="categotyUL">
+                <li>
+                  <Link>Mobile</Link>
+                </li>
+                <li>
+                  <Link>Laptop</Link>
+                </li>
+                <li>
+                  <Link>Power Banks</Link>
+                </li>
+                <li>
+                  <Link>SD Card</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
