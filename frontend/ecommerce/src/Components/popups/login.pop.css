@@ -1,26 +1,31 @@
 .LoginRow {
-    /* background-image: url("./img/loginbackground.png");
+  /* background-image: url("./img/loginbackground.png");
     background-size: cover; */
-    border-radius: 20px;
-    -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
-    margin-bottom: 5%;
-  }
-  
-  .loginComponentColOne {
-    background-color: #016385;
-    padding: 5% 5%;
-    border-radius: 20px;
-  }
-  
-  .loginComponentColOne .textLoginColOne {
-    color: #ffffff;
-    font-weight: bolder;
-  }
-  
-  .loginComponentColTwo {
-    padding: 5% 8%;
-    border-radius: 20px;
-  }
-  
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 5%;
+}
+
+.loginComponentColOne {
+  background-color: #016385;
+  padding: 5% 5%;
+  border-radius: 20px;
+}
+
+.loginComponentColOne .textLoginColOne {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.loginComponentColTwo {
+  padding: 5% 8%;
+  border-radius: 20px;
+}
+.login-content {
+  margin: auto !important;
+  background: transparent !important;
+  width: 50% !important;
+  padding: 5px !important;
+}
