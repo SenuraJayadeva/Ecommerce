@@ -14,6 +14,7 @@ export default function HomePageComponent() {
         <div>
           <CategoriesSection />
         </div>
+
         <div>
           <FeaturedSection />
         </div>
