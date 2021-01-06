@@ -1,18 +1,16 @@
 import React, { useState } from "react";
-import LoginComponent from "../LoginComponent/login.component";
-import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
-import "../popups/login.pop.css";
-// import RecoveryPopup from "../recoverypasswordPopup/recoveryPopup";
-import RecoveryPopup from "./recoverypasswordPopup/recoveryPopup";
+import "../login.pop.css";
 
-export default function LoginPopup() {
+export default function RecoveryPopup() {
  const [email , setEmail] = useState("");
  const [password ,setPassword] = useState("");
+ const [rePassword , setRePassword] = useState("");
 
  const loginData = {
    userEmail : email,
-   userPassword : password
+   newPassword : password,
+   recoveryPassword : rePassword,
  }
 
  const submitForm = (e)=>{
@@ -26,12 +24,8 @@ export default function LoginPopup() {
           <div className="row LoginRow">
             <div className="col-md-6 text-center loginComponentColOne">
              <h1 className="textLoginColOne d-none d-md-block">UniCART</h1>          
-              <h3 className="textLoginColOne">LOGIN</h3>
+              <h3 className="textLoginColOne">Recover Account</h3>
               <hr style={{ color: "white" }} />
-              <p className="textLoginColOne">Start posting your own ads</p>
-              <p className="textLoginColOne">
-                View and manage your ads at your convenience
-              </p>
             </div>
 
             <div className="col-md-6 loginComponentColTwo">
@@ -47,11 +41,11 @@ export default function LoginPopup() {
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
-                    placeholder="Enter email"
+                    placeholder="Enter Email"
                   />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
+                  <label for="exampleInputPassword1">New Password</label>
                   <input
                     type="password"
                     value={password}
@@ -60,17 +54,26 @@ export default function LoginPopup() {
                     }}
                     class="form-control"
                     id="exampleInputPassword1"
-                    placeholder="Password"
+                    placeholder="Enter New Password"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword2">Re-enter Password</label>
+                  <input
+                    type="password"
+                    value={rePassword}
+                    onChange={(e)=>{
+                      setRePassword(e.target.value);
+                    }}
+                    class="form-control"
+                    id="exampleInputPassword2"
+                    placeholder="Re-enter New Password"
                   />
                 </div>
 
                 <button type="submit" class="btn btn-primary">
-                  Submit
+                  Save
                 </button>
-                <br />  
-                <Popup class="popup-content" modal trigger={<p>Forgot Password?</p>}>
-                <RecoveryPopup/>
-              </Popup>
               </form>
             </div>
           </div>
