@@ -24,13 +24,6 @@ export default function RegisterComponent() {
     console.log(registerData);
   };
 
-  // onChange = (e) => {
-  //     if(!Number(e.target.value)){
-  //         setName(e.target.value);
-  //         alert("Error");
-  //     }
-  // }
-
   return (
     <div className="container">
       <div className="container">
