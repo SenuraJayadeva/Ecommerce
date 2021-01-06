@@ -11,10 +11,13 @@ export default function RegisterComponent() {
   //validations
   const [fNameErr, setNameErr] = useState({});
   const [emailErr, setEmailErr] = useState({});
+  const [passwordErr, setPasswordErr] = useState({});
+  const [cPasswordErr, setcpasswordErr] = useState({});
 
   const registerData = {
     FNAME: fullName,
     EMAIL: email,
+    UNIVERSITY: University,
     PASSWORD: password,
     CPASSWORD: confirmPassword,
   };
@@ -22,6 +25,39 @@ export default function RegisterComponent() {
   const onSubmit = (e) => {
     e.preventDefault();
     console.log(registerData);
+     const isValid = formValidation();
+  };
+
+  const formValidation = () => {
+    const nameErr = {};
+    const emailErr = {};
+    const passwordErr = {};
+    const cpassowrdErr = {};
+    let isValid = true;
+
+    if (!fullName.includes("123")) {
+      nameErr.nameInvalid = "Not Valid!";
+      isValid = false;
+    }
+    // var emailRegex = /^[w-.]+@([w-]+.)+[w-]{2,4}$/;
+    // if (email.match(ema))) {
+    //   emailErr.emailInvalid = "Not Valid!";
+    //   isValid = false;
+    // }
+    var pwRegex = /^[A-Za-z]\w{7,14}$/;
+    if (password.match(pwRegex)) {
+      passwordErr.passwordInvalid = "Not Valid!";
+      isValid = false;
+    }
+    if (confirmPassword === password) {
+      cpassowrdErr.notEqual = "Not Equal With Above You Entered!";
+      isValid = false;
+    }
+
+    setNameErr(nameErr);
+    setEmailErr(emailErr);
+    setPasswordErr(passwordErr);
+    setcpasswordErr(cpassowrdErr);
   };
 
   return (
@@ -78,6 +114,9 @@ export default function RegisterComponent() {
                   placeholder="Enter email"
                 />
               </div>
+              {Object.keys(emailErr).map((key) => {
+                return <div style={{ color: "red" }}>{emailErr}</div>;
+              })}
               <div class="form-group">
                 <label for="exampleInputEmail1">University</label>
                 <input
@@ -103,6 +142,9 @@ export default function RegisterComponent() {
                   placeholder="Enter password"
                 />
               </div>
+              {Object.keys(passwordErr).map((key) => {
+                return <div style={{ color: "red" }}>{passwordErr}</div>;
+              })}
               <div class="form-group">
                 <label for="exampleInputPassword1">Confirm Password</label>
                 <input
@@ -115,6 +157,9 @@ export default function RegisterComponent() {
                   placeholder="Renter password"
                 />
               </div>
+              {Object.keys(cPasswordErr).map((key) => {
+                return <div style={{ color: "red" }}>{cPasswordErr}</div>;
+              })}
 
               <button type="submit" class="btn btn-primary">
                 Sign Up
