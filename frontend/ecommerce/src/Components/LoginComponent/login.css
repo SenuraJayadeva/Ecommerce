@@ -17,6 +17,7 @@
 .loginComponentColOne .textLoginColOne {
   color: #ffffff;
   font-weight: bolder;
+  background: none;
 }
 
 .loginComponentColTwo {

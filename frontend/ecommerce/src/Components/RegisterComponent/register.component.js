@@ -46,16 +46,18 @@ export default function RegisterComponent() {
                   type="text"
                   value={fullName}
                   onChange={(e) => {
-                    if (!Number(e.target.value)) {
-                      setName(e.target.value); 
-                    }
-                    else{
-                      alert("Error");
-                    }
-                  
-                  }}
-                  onChange={(e) => {
-                    setName(e.target.value);
+                    console.log(e.target.value);
+                    const nameWord = e.target.value;
+                    const wordArray = nameWord.split("");
+                    wordArray.map((singleWord) => {
+                      if (!Number(singleWord)) {
+                        setName(e.target.value);
+                      } else {
+                        alert("Cannot contain numbers");
+                        setName(fullName);
+                      }
+                      console.log("word" + singleWord);
+                    });
                   }}
                   class="form-control"
                   placeholder="Enter your full name"

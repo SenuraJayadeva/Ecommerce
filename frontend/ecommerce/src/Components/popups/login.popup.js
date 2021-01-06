@@ -4,7 +4,7 @@ import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import "../popups/login.pop.css";
 
-export default function loginPopup() {
+export default function LoginPopup() {
   return (
     <Popup>
       <div className="container">
