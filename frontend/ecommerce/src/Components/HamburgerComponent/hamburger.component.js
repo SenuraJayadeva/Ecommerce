@@ -2,10 +2,9 @@ import React, { useEffect } from "react";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import LoginComponent from "../LoginComponent/login.component";
-import loginPopup from "../popups/login.popup";
+import LoginPopup from "../popups/login.popup";
 
 import "./hamburgermenu.css";
-
 
 export default function HamburgerComponent() {
   return (
@@ -60,10 +59,11 @@ export default function HamburgerComponent() {
               <a class="nav-link" style={{ color: "white" }}>
                 <i class="fas fa-sign-in-alt"></i> &nbsp;{" "}
                 <Popup
+                  style={{ background: "red" }}
                   modal
                   trigger={<button class="btn btn-primary ">Login</button>}
                 >
-                  <LoginComponent />
+                  <LoginPopup />
                 </Popup>
               </a>
             </li>

@@ -4,10 +4,9 @@ import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import "../popups/login.pop.css";
 
-export default function loginPopup() {
+export default function LoginPopup() {
   return (
-    <Popup>
-      <div className="container">
+    <div className="container">
       <div className="container">
         <div className="row LoginRow">
           <div className="col-md-6 text-center loginComponentColOne">
@@ -52,6 +51,5 @@ export default function loginPopup() {
         </div>
       </div>
     </div>
-    </Popup>
   );
 }
