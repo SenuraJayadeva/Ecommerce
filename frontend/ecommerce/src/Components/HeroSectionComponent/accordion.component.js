@@ -36,13 +36,22 @@ export default function CategoryAccordion() {
                   <Link>Mobile</Link>
                 </li>
                 <li>
+                  <Link>Mobile Phone Accessories</Link>
+                </li>
+                <li>
+                  <Link>Computer And Laptop Accessories</Link>
+                </li>
+                <li>
                   <Link>Laptop</Link>
                 </li>
                 <li>
                   <Link>Power Banks</Link>
                 </li>
                 <li>
-                  <Link>SD Card</Link>
+                  <Link>SD Card And Pen Drive</Link>
+                </li>
+                <li>
+                  <Link>Others</Link>
                 </li>
               </ul>
             </div>
@@ -71,16 +80,22 @@ export default function CategoryAccordion() {
               {" "}
               <ul className="categotyUL">
                 <li>
-                  <Link>Mobile</Link>
+                  <Link>Beauty Products</Link>
                 </li>
                 <li>
-                  <Link>Laptop</Link>
+                  <Link>Clothes</Link>
                 </li>
                 <li>
-                  <Link>Power Banks</Link>
+                  <Link>Watches</Link>
                 </li>
                 <li>
-                  <Link>SD Card</Link>
+                  <Link>Jewellery</Link>
+                </li>
+                <li>
+                  <Link>Shoes </Link>
+                </li>
+                <li>
+                  <Link>Other Fashion Items</Link>
                 </li>
               </ul>
             </div>
@@ -109,16 +124,16 @@ export default function CategoryAccordion() {
               {" "}
               <ul className="categotyUL">
                 <li>
-                  <Link>Mobile</Link>
+                  <Link>Pencil Case</Link>
                 </li>
                 <li>
-                  <Link>Laptop</Link>
+                  <Link>Stationary Items</Link>
                 </li>
                 <li>
-                  <Link>Power Banks</Link>
+                  <Link>Add</Link>
                 </li>
                 <li>
-                  <Link>SD Card</Link>
+                  <Link>Add</Link>
                 </li>
               </ul>
             </div>
@@ -148,54 +163,16 @@ export default function CategoryAccordion() {
               {" "}
               <ul className="categotyUL">
                 <li>
-                  <Link>Mobile</Link>
+                  <Link>Event And Entertainments</Link>
                 </li>
                 <li>
-                  <Link>Laptop</Link>
+                  <Link>Add something</Link>
                 </li>
                 <li>
-                  <Link>Power Banks</Link>
+                  <Link>Add Something</Link>
                 </li>
                 <li>
-                  <Link>SD Card</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseFive"
-              aria-expanded="false"
-              aria-controls="collapseFive"
-            >
-              University
-            </button>
-          </h2>
-          <div
-            id="collapseFive"
-            class="accordion-collapse collapse"
-            aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              {" "}
-              <ul className="categotyUL">
-                <li>
-                  <Link>Mobile</Link>
-                </li>
-                <li>
-                  <Link>Laptop</Link>
-                </li>
-                <li>
-                  <Link>Power Banks</Link>
-                </li>
-                <li>
-                  <Link>SD Card</Link>
+                  <Link>Add Something</Link>
                 </li>
               </ul>
             </div>
@@ -211,7 +188,7 @@ export default function CategoryAccordion() {
               aria-expanded="false"
               aria-controls="collapseFive"
             >
-              University
+              Vehicles
             </button>
           </h2>
           <div
@@ -224,16 +201,45 @@ export default function CategoryAccordion() {
               {" "}
               <ul className="categotyUL">
                 <li>
-                  <Link>Mobile</Link>
+                  <Link>Bikes</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSix"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              University
+            </button>
+          </h2>
+          <div
+            id="collapseSix"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              {" "}
+              <ul className="categotyUL">
+                <li>
+                  <Link>J'pura</Link>
                 </li>
                 <li>
-                  <Link>Laptop</Link>
+                  <Link>Colombo</Link>
                 </li>
                 <li>
-                  <Link>Power Banks</Link>
+                  <Link>Mora</Link>
                 </li>
                 <li>
-                  <Link>SD Card</Link>
+                  <Link>Kelani</Link>
                 </li>
               </ul>
             </div>

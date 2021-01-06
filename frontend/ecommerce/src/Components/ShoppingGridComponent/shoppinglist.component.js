@@ -4,15 +4,16 @@ import "./shoppinglist.css";
 export default function ShoppingListComponent() {
   return (
     <div>
-      <section>
+      <section >
         <div className="container">
-          <form class="example">
+          <form  class="example">
             <input
               type="text"
+              style={{borderRadius : "30px",background:"red"}}
               placeholder="What do you need ? "
               name="search"
             />
-            <button type="submit">
+            <button  style={{borderRadius : "30px"}} type="submit">
               <i class="fa fa-search"></i>
             </button>
           </form>
