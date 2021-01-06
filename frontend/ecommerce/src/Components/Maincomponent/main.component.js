@@ -24,7 +24,7 @@ export default function MainComponent() {
           <Route path="/" exact component={HomePageComponent} />
         </div>
         <div>
-          <Route path="/login" exact component={LoginPopup} />
+          {/* <Route path="/login" exact component={LoginComponent} /> */}
         </div>
         <div>
           <Route path="/signup" exact component={RegisterComponent} />

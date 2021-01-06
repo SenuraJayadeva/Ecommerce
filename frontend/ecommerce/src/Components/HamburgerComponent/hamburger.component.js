@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Route } from "react-router-dom";
+import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import LoginPopup from "../../Components/popups/login.popup";
 import "./hamburgermenu.css";
@@ -54,9 +55,12 @@ export default function HamburgerComponent() {
           </ul>
           <ul class="navbar-nav ">
             <li class="nav-item my-2 my-lg-0">
-              <a class="nav-link" href="/login" style={{ color: "white" }}>
-                <i class="fas fa-sign-in-alt"></i> &nbsp;Login
-              </a>
+              {/* <a class="nav-link" exact Component={LoginPopup} href="/login" style={{ color: "white" }}>
+                <i  class="fas fa-sign-in-alt"></i> &nbsp;Login
+              </a>       */}
+              <Popup class="popup-content" modal trigger={<button class="btn btn-primary">Login</button>}>
+                <LoginPopup/>
+              </Popup>
             </li>
             <li class="nav-item my-2 my-lg-0">
               <a class="nav-link" href="/signup" style={{ color: "white" }}>
