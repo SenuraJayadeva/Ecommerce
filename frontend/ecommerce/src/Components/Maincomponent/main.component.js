@@ -10,7 +10,7 @@ import ShoppinggridComponent from "../ShoppingGridComponent/shoppinggrid.compone
 import LoginComponent from "../LoginComponent/login.component";
 import RegisterComponent from "../RegisterComponent/register.component";
 import UserComponent from "../UserComponent/user.component";
-import loginPopup from "../popups/login.popup";
+import LoginPopup from "../popups/login.popup";
 
 export default function MainComponent() {
   return (
@@ -24,7 +24,7 @@ export default function MainComponent() {
           <Route path="/" exact component={HomePageComponent} />
         </div>
         <div>
-          {/* <Route path="/login" exact component={loginPopup} /> */}
+          <Route path="/login" exact component={LoginPopup} />
         </div>
         <div>
           <Route path="/signup" exact component={RegisterComponent} />

@@ -23,3 +23,9 @@
   padding: 5% 8%;
   border-radius: 20px;
 }
+.login-content {
+  margin: auto !important;
+  background: transparent !important;
+  width: 50% !important;
+  padding: 5px !important;
+}
