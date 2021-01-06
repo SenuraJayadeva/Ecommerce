@@ -55,7 +55,9 @@ export default function RegisterComponent() {
                   onChange={(e) => {
                     if (!Number(e.target.value)) {
                       setName(e.target.value); 
-                      alert("Error");  
+                    }
+                    else{
+                      alert("Error);
                     }
                   
                   }}
