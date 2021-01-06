@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import FileUpload from "../../FileuploadComponent/FileUploadcomponent";
 import "./usercomponent.css";
 
 export default function AdvertisementformComponent() {
+  const [ItemName, setItem] = useState("");
+  const [Condition, setCondition] = useState("");
+  const [Price, setPrice] = useState("");
+  const [University, setUniversity] = useState("");
+  const [District, setDistrict] = useState("");
+  const [Town, setTown] = useState("");
+  const [Description, setDescription] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
+  const [email, setEmail] = useState("");
+
+
   return (
     <div className="usercomponents ">
       <div className="card adform">
@@ -14,7 +26,7 @@ export default function AdvertisementformComponent() {
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter Advetisement Title"
+                placeholder="Enter Advertisement Title"
               />
             </div>
             <div class="form-group">
@@ -22,7 +34,7 @@ export default function AdvertisementformComponent() {
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter email"
+                placeholder="Enter Condition"
               />
             </div>
             <div class="form-group">
@@ -69,7 +81,7 @@ export default function AdvertisementformComponent() {
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter Town"
+                placeholder="Enter Number"
               />
             </div>
 
@@ -78,14 +90,15 @@ export default function AdvertisementformComponent() {
               <input
                 type="text"
                 class="form-control"
-                placeholder="Enter Town"
+                placeholder="Enter Email"
               />
             </div>
             <div class="form-group">
               <label>Upload an Image</label>
-              <input type="file" class="form-control" />
+              {/* <input type="file" class="form-control" /> */}
+              <FileUpload/>
+         
             </div>
-
             <button type="submit" class="btn btn-primary">
               Submit
             </button>
