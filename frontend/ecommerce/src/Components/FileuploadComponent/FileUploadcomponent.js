@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import upload from "../FileuploadComponent/upload.css";
 
 import Dropzone from "react-dropzone-uploader";
@@ -9,25 +9,31 @@ export default function FileUpload() {
   const getUploadParams = ({ meta }) => {
     return { url: "https://http://localhost:3000" };
   };
-
+  const [images, setImages] = useState([]);
   // Return the current status of files being uploaded
-  const handleChangeStatus = ({ meta, file }, status) => {
-    console.log(status, meta);
-    console.log("image file " + meta.height);
+  const handleChangeStatus = ({ meta, file }, status, allFiles) => {
+    // console.log(status, meta, file, allFiles);
+    setImages(allFiles);
+    console.log(Images);
   };
 
+  const Images = [images];
+
   // Return array of uploaded files after submit button is clicked
-  // receives array of files that are done uploading when submit button is clicked
-  const handleSubmit = (files, allFiles) => {
-    console.log(files.map((f) => f.meta));
+  const Submit = (files, allFiles) => {
+    //  console.log(files.map(f => f.meta))
     allFiles.forEach((f) => f.remove());
   };
 
   return (
     <Dropzone
+      styles={{ overflow: "hidden" }}
+      classNames={upload}
       getUploadParams={getUploadParams}
       onChangeStatus={handleChangeStatus}
-      onSubmit={handleSubmit}
+      maxFiles={3}
+      //  onChangeStatus ={submit}
+      //  onSubmit={Submit}
       accept="image/*,audio/*,video/*"
     />
   );
