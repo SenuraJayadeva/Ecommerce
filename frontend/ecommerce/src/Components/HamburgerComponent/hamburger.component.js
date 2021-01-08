@@ -5,7 +5,9 @@ import "reactjs-popup/dist/index.css";
 import LoginPopup from "../../Components/popups/login.popup";
 import "./hamburgermenu.css";
 
+
 export default function HamburgerComponent() {
+ 
   return (
     <div className="container">
       <nav
@@ -58,14 +60,23 @@ export default function HamburgerComponent() {
               {/* <a class="nav-link" exact Component={LoginPopup} href="/login" style={{ color: "white" }}>
                 <i  class="fas fa-sign-in-alt"></i> &nbsp;Login
               </a>       */}
-              <Popup class="popup-content" modal trigger={<button class="btn btn-primary">Login</button>}>
-                <LoginPopup/>
+              <Popup
+                class="popup-content"
+                modal
+                trigger={
+                  <button class="login-btn">
+                    {" "}
+                    <i class="fas fa-sign-in-alt"></i> &nbsp;Login
+                  </button>
+                }
+              >
+                <LoginPopup></LoginPopup>
               </Popup>
             </li>
             <li class="nav-item my-2 my-lg-0">
-              <a class="nav-link" href="/signup" style={{ color: "white" }}>
+              {/* <a class="nav-link btn btn-primary" href="/signup" style={{ color: "white" }}>
                 <i class="fas fa-user-plus"></i> &nbsp; Register
-              </a>
+              </a> */}
             </li>
           </ul>
         </div>
