@@ -21,9 +21,9 @@ export default function LoginPopup() {
  }
 
   return (  
-      <div className="container">
+      <div className="container" close>
         <div className="container">
-          <div className="row LoginRow">
+          <div className="row">
             <div className="col-md-6 text-center loginComponentColOne">
              <h1 className="textLoginColOne d-none d-md-block">UniCART</h1>          
               <h3 className="textLoginColOne">LOGIN</h3>
@@ -64,11 +64,11 @@ export default function LoginPopup() {
                   />
                 </div>
 
-                <button type="submit" class="btn btn-primary">
+                <button type="submit"  class="btn btn-primary Forgot">
                   Submit
                 </button>
                 <br />  
-                <Popup class="popup-content" modal trigger={<p>Forgot Password?</p>}>
+                <Popup class="popup-content" modal trigger={<span >Forgot Password?</span>}>
                 <RecoveryPopup/>
               </Popup>
               </form>
