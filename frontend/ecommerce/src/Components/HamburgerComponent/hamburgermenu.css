@@ -32,7 +32,13 @@
   border-radius: 30px!important;
 }
 .login-btn {
+  margin: 5px 15px!important;
   border-radius: 30px!important;
   background-color: transparent!important;
   border-color:transparent !important;
+}
+.btn-info {
+  color: #000 !important;
+  background-color: transparent!important;
+  border-color: transparent!important;
 }
