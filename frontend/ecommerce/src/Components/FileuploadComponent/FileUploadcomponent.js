@@ -7,7 +7,7 @@ import "react-dropzone-uploader/dist/styles.css";
 export default function FileUpload() {
   // Payload data and url to upload files
   const getUploadParams = ({ meta }) => {
-    return { url: "https://http://localhost:3000" };
+    // return { url: "https://http://localhost:3000" };
   };
   const [images, setImages] = useState([]);
   // Return the current status of files being uploaded
@@ -29,7 +29,7 @@ export default function FileUpload() {
     <Dropzone
       styles={{ overflow: "hidden" }}
       classNames={upload}
-      getUploadParams={getUploadParams}
+      // getUploadParams={getUploadParams}
       onChangeStatus={handleChangeStatus}
       maxFiles={3}
       //  onChangeStatus ={submit}

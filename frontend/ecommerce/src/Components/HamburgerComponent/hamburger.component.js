@@ -61,7 +61,7 @@ export default function HamburgerComponent() {
                 <i  class="fas fa-sign-in-alt"></i> &nbsp;Login
               </a>       */}
               <Popup
-                class="popup-content"
+                class="btn-info"
                 modal
                 trigger={
                   <button class="login-btn">
@@ -73,10 +73,10 @@ export default function HamburgerComponent() {
                 <LoginPopup></LoginPopup>
               </Popup>
             </li>
-            <li class="nav-item my-2 my-lg-0">
-              {/* <a class="nav-link btn btn-primary" href="/signup" style={{ color: "white" }}>
+            <li class=" my-2 my-lg-0">
+              <a class="btn btn-info" href="/signup">
                 <i class="fas fa-user-plus"></i> &nbsp; Register
-              </a> */}
+              </a>
             </li>
           </ul>
         </div>

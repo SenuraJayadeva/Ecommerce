@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const connectDB = require("./config/db");
 const path = require("path");
-
+const regRoute = require('./routes/register-routes');
 const app = express();
 
 //Connect Database
@@ -17,6 +17,8 @@ app.use(express.json({ extended: false }));
 app.get("/", (req, res) => res.send("Api Running"));
 
 //Define Routes
+
+app.use('app/reg', regRoute);
 
 //-------------------Senura---------------------
 // app.use("/api/instructor/meal", require("./routes/api/meal"));

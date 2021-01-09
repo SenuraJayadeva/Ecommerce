@@ -4,6 +4,7 @@ export default function ShoopingcarouselComponent() {
   return (
     <div>
       <div
+        data-aos="fade-right"
         id="carouselExampleCaptions"
         class="carousel slide"
         data-bs-ride="carousel"
